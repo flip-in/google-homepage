@@ -1,0 +1,33 @@
+.body{
+    margin: auto;
+    display: block;
+}
+
+
+.searchbox{
+    display: block;
+    margin: auto;
+    width: 550px;
+    height: 35px;
+  
+    border: 1px solid #e0e0e0;
+
+}
+
+#logo{
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 150px;
+    padding: 10px;  
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/**
+*{
+    outline: 1px solid red;
+}
