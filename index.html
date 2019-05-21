@@ -2,17 +2,30 @@
 <html>
     <!-- Let's Create a functional copy of the Google Homepage-->
 <head>
-    <meta charset="utf-9">
+    <meta charset="utf-8">
     <title>Will's Google</title>
     <link rel="stylesheet" href="style.css">
 </head>
     <body>
+        <div id="navbar">
+            <ul>
+                <li><a href="https://www.google.com/">Images</a></li>
+                <li><a href="https://www.google.com/">Gmail</a></li>
+            </ul>
+        </div>
+
+
         <div class="container">
             <img alt="Google" height="92" id="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
         </div>
-        <div>
-            <form>
-                <input class="searchbox" type="text" name="search" placeholder="Search...">
+        <div class="container">
+            <form action="" method="POST">
+                <input id="searchbox" type="text" name="search" placeholder="Search...">
+                <br>
+                <span>
+                    <input class="button" type="submit" value="Google Search" name="Google Search" id="gsearch">
+                    <input type="submit" value="I'm Feeling Lucky" name="Lucky" id="lucky">
+                </span>
             </form>
 
         </div>
